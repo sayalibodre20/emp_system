@@ -1,0 +1,30 @@
+create table dept(
+deptid int primary key,
+dname varchar(20),
+deptdesc varchar(20)
+);
+
+create table emp(empid int primary key,
+ename varchar(20),
+address varchar(20),
+deptid int,
+foreign key fk_id(deptid) references dept(deptid) 
+);
+
+create table project(
+project id int primary key,
+projectname varchar(20).
+empid int,
+foreign key fk_id(empid) references dept(empid) 
+);
+HR
+id name deptid empid
+
+create table HR(
+id int primary key,
+name varchar(20),
+empid int,
+foreign key fk_id(empid) references dept(empid) 
+deptid int,
+foreign key fk_id(deptid) references dept(deptid) 
+);

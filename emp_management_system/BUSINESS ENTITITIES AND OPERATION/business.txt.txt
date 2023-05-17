@@ -1,0 +1,20 @@
+entities
+employee
+empid ename  address mobileno deptid
+
+department
+deptid dname desc
+
+project
+projectid projectname proj_desc empid
+
+HR
+id name deptid empid
+
+operations
+add  employee
+remove employee details
+update employee details
+login/logout from application
+display project details
+leave employees

@@ -1,0 +1,37 @@
+document:src for employee recuirtment system
+Title:employee recuirtment system
+Overview:
+in the world we are trying to reduce headache of employee to go to particular company and apply for the job.this system product work plaform through
+online platform.and this system provide facility of the the multiple companies.
+Objective:
+objective of employee  recuirtment system is too provide more jobs to the employees.
+Scope:
+after the register the employee,employee can view the companies list depend upon their company name,location,ctc.
+this system only allow to access only for registered employees.
+user interfact only show to the those who have match with credentials of databases.
+anynomous yser cannot view update and changes this system and not able to modify any information.
+definition:
+requirements:
+Functional Requirement:
+1.Authentication
+1.1. Login:only registered user can allow to login this sytem
+1.2 Logout:user may logout from the system
+1.3 Login failure: if any registered user not able to login,then this is system the link which who not able to login those can able to login successfully the system
+2.Authorization:
+after login to the system,if any user not login those user backup and restore the system.
+3.crud employee details:
+those user want to update the details they can update at any time.
+4.task/project management:
+HR must assign the task and project allocation to their particular employees which belong to their departments.
+5.leave/approve process:
+employee can leave to inform to their manager and manager must approve their leave.
+Non-Fuctional Requirement:
+1.Security:
+those employee have successfully registered to the system those can login the system.
+anynomous user not able to login the system.
+employee can securely upload their cv's and other personal information.
+2.Availability:
+ user can aceess 24*7 the system
+3.portability:
+user can access this system any device at any time
+user can login mobile,desktop etc.
